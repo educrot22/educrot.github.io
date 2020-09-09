@@ -779,6 +779,7 @@ time
     color: #4682B4;
     font-size: 25px;
     font-weight: 500;
+    text-decoration: underline;
     }
 
 .article {

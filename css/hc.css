@@ -10,6 +10,10 @@ body
   border-width:4px
 }
 
+img {
+  border-radius: 20%;
+}
+
 h1,h2,h3,h4,h5,h6
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
@@ -66,7 +70,7 @@ p
 
 .container a
 {
-  border-bottom:1px #8a8a8a dotted;
+  border-bottom:2px #8a8a8a ;
   text-decoration:none
 }
 
@@ -271,7 +275,7 @@ pre
   font-weight:bolder;
   color:#fff;
   text-align:center;
-  padding-top:20%
+  padding-top:5%
 }
 
 .wide
@@ -290,23 +294,15 @@ pre
 
 #welcome-greeting > h1
 {
-  font-size:3em;
-  font-weight:700;
-  color:#5499C7;
+  font-size:1.8.em;
+  font-weight:400;
+  color:#4682B4;
   line-height:130%
-}
-
-#welcome-greeting h1:hover
-{
-  font-size:3em;
-  font-weight:700;
-  color:#2d4440;
-  transition:all .5s ease 0
 }
 
 #welcome-greeting > h2
 {
-  font-size:2em;
+  font-size:1.6em;
   font-weight:100;
   color:#2e2e2e;
   padding-top:0;
@@ -315,8 +311,8 @@ pre
 
 #welcome-greeting h2 a
 {
-  font-weight:100;
-  color: #5499C7
+  font-weight:300;
+  color: #4682B4
 }
 
 .credit
@@ -565,6 +561,7 @@ time
 {
   margin-left:-40px;
   margin-top:-10px
+  border-radius:50px;
 }
 
 .letter p
@@ -751,4 +748,43 @@ time
   font-size: small;
 }
 
+}
+
+
+#publications {
+    text-align: left;
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+#publications h2 {
+    color: #4682B4;
+    font-size: 25px;
+    font-weight: 500;
+    }
+
+.article {
+    padding: 0px;
+    line-height: 1px;
+    }
+
+.article h3{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+}
+.article h4{
+    color: #6d7680;
+    font-weight: 300;
+}
+.article a{
+    color: #6495ED;
+    font-weight: 300;
+    text-decoration: none;
+}
+.article a:hover{
+    color: #6495ED;
+    font-weight: 300;
+    text-decoration: underline;
 }

@@ -12,6 +12,7 @@ body
 
 img {
   border-radius: 40%;
+  display: flex;
 }
 
 * {
@@ -21,7 +22,12 @@ img {
 .column {
   float: left;
   width: 33.33%;
-  padding: 5px;
+  padding: 40px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
 /* Clearfix (clear floats) */

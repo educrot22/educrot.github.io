@@ -7,7 +7,7 @@ This CV makes use of the Herring Cove theme for Jekyll.
 
 ### Download
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+[download Herring Cove theme](https://github.com/arnp/herring-cove/archive/master.zip)
 
 *What's with the name?*
 

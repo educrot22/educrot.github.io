@@ -116,9 +116,9 @@ p
 
 #sidebar-wrapper
 {
-  margin-left:-300px;
-  left:300px;
-  width:300px;
+  margin-left:-250px;
+  left:250px;
+  width:250px;
   background:#f8f8f8;
   position:fixed;
   height:100%;
